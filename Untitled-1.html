@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="../../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+
+    <style>
+        body
+        {
+            background-color: gray;
+        }
+        header 
+        {
+            position: sticky;
+            top: 0;
+            display: grid;
+            grid-template-columns: 3fr 7fr 2fr; 
+            grid-template-rows: 3fr 3fr;  
+            padding: 10px;
+            background-color: rgb(14, 10, 238); 
+            color: white;
+            justify-content: center;
+            align-items: center;
+            height: 40px;
+        }
+        footer
+        {
+            display: grid;
+            grid-template-columns: 4fr 4fr 4fr;
+            padding: 10px;
+            background-color: lightgray; color: black;
+        }
+        #sign
+        {
+            width: 100px;
+            height: 30px;
+            color: white;
+            background-color: red;
+            margin-top: 10px;
+        }
+        section
+        {
+            display: grid;
+            grid-template-columns: 3fr 9fr; 
+            height: 870px;
+            margin-top: 20px;
+        }
+        #search
+        {
+            width: 50%;
+        }
+        nav>ol>li
+        {
+            background-color: yellow;
+            color: black;
+            margin-bottom: 10px;
+            width: 140px;
+            list-style-type: none;
+            padding: 10px;
+            margin-left: -30px; 
+            text-align: center;
+            border-radius: 10px;
+            text-decoration: none;
+        }
+        a
+        {
+            text-decoration: none;
+        }
+        .imgCard
+        {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 50px;
+        }
+        .Virat-section{
+            display: flex;
+            flex-direction: row;
+        }
+        .virat-image{
+            height: 22vw;
+            width: 40vw;
+            
+        }
+        .image1{
+            text-align: center;
+        }
+        .about{
+            text-align: center;
+        }
+        .matter{
+            font-weight: bolder;
+            font-style: oblique; 
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <font color="white">
+                <font size="10">C</font>
+                <font size="6">R</font>
+                <font size="6">I</font>
+                <font size="6">C</font>
+                <font size="6">I</font>
+                <font size="6">N</font>
+                <font size="6">F</font>
+                <font size="6">O</font>
+            </font>
+        </div>
+        <div>
+            <form>
+                <select>
+                    <option>All Categories</option>
+                    <option>Ipl</option>
+                    <option>International</option>
+                    <option>Ranji Trophy</option>
+                    <option>Under19 WC</option>
+                </select>
+                <input style="width: 500px;" type="text" placeholder=" Teams , Players , Series & more">
+                <button><span class="bi bi-search"></span></button>
+            </form>
+        </div>
+        <div>
+            <button class="bi bi-person">Login</button> <span class="bi bi-cart">Play</span>
+        </div>
+    </header>
+    <section>
+        <div>
+            <menu>
+                <nav>
+                    <ol>
+                        <li><span class="bi bi-house"></span> <a href="#">Home</a></li>
+                        <li><span class="bi bi-broadcast"></span> <a href="#">Live</a></li>
+                        <li><span class="bi bi-caret-down-square-fill"></span> <a href="#">Scores</a></li>
+                        <li><span class="bi bi-person"></span> <a href="#">Profile</a></li>
+                    </ol>
+                </nav>
+            </menu>
+        </div>
+        <main>
+            <div style="color: white; margin-left: 20px;">
+                <h2>About Cricket</h2>
+                <figcaption>Fig. Cricket</figcaption>
+                <img src="https://img.theweek.in/content/dam/week/news/sports/images/2018/10/30/dhoni-odi-file-afp.jpg" width="600px" height="300px">                
+                <p style="text-align: justify;">
+                    The International Cricket Council (ICC), which has its headquarters in Dubai, is the global governing body of cricket. 
+                    It was founded as the Imperial Cricket Conference in 1909 by representatives from England, Australia and South Africa, 
+                    renamed the International Cricket Conference in 1965 and took up its current name in 1989.[118] The ICC in 2017 has 105 
+                    member nations, twelve of which hold full membership and can play Test cricket.[120] The ICC is responsible for the 
+                    organisation and governance of cricket's major international tournaments, notably the men's and women's versions of the Cricket World Cup.
+                </p>
+            </div> 
+            <div class="imgCard">
+                
+                <div><img src="https://i.pinimg.com/736x/a6/c7/80/a6c7802dce4a002f6aaf70d18d33db34.jpg"  width="200px" height="200px"></div>
+                <div><img src="https://assets.telegraphindia.com/telegraph/539f64ef-d82e-4a07-90cf-4f949179504a.jpg"  width="200px" height="200px"></div>
+                <div><img src="https://i.ndtvimg.com/i/2018-04/dhoni-afp_806x605_41524714579.jpg"  width="200px" height="200px"></div>
+                <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLSK4Zq4SiJuwJRl0g-QCwhZ0EwsrpY1B15Q&usqp=CAU"  width="200px" height="200px"></div>
+            </div>           
+        </main>
+    </section>
+    
+
+    <div class="Virat-section">
+        <div class="image1">
+        <img src="https://www.jokesinhindishayari.com/wallpapers-src/virat-kohli-4k-wallpaper/virat-kohli-wallpaper-fulhgbht.jpg" class="virat-image">
+        
+       </div>
+       <div class="about">
+        <h1 class="Virat">Virat kohli</h1>
+        <p class="matter">Virat Kohli (Hindi pronunciation: [ʋɪˈɾɑːʈ ˈkoːɦli] ⓘ; born 5 November 1988) 
+            is an Indian international cricketer and the former captain of the Indian national cricket team. 
+            He is a right-handed batsman and an occasional medium-fast bowler. He currently represents Royal 
+            Challengers Bangalore in the IPL and Delhi in domestic cricket. Kohli is widely regarded as one 
+            of the greatest batsmen in the history of cricket and the best of the 21st century.[3] He holds 
+            the record as the highest run-scorer in T20I and IPL, ranks third in ODI, and stands as the 
+            fourth-highest in international cricket.[4] He also holds the record for scoring the most 
+            centuries in ODI cricket and stands second in the list of most international centuries scored. 
+            Kohli was a member of the Indian team that won the 2011 Cricket World Cup, 2013 ICC Champions Trophy, 
+            and captained India to win the ICC Test mace three consecutive times in 2017, 2018, and 2019.[5]</p>
+       </div>
+    </div>
+
+
+
+
+
+    <div class="Virat-section">
+    <div class="about">
+        <h1 class="Dhone">Ms Dhone</h1>
+        <p class="matter">Mahendra Singh Dhoni (/məˈheɪndrə ˈsɪŋ dhæˈnɪ/ ⓘ; born 7 July 1981) is an Indian 
+            professional cricketer. He is a right handed batter and a wicket-keeper. Widely regarded as one 
+            of the most prolific wicket-keeper-batsmen and captains, he represented the Indian cricket team 
+            and was the captain of the side in limited-overs formats from 2007 to 2017 and in test cricket 
+            from 2008 to 2014. Dhoni has captained the most international matches and is the most successful 
+            Indian captain. He has led India to victory in the 2011 Cricket World Cup, the 2007 ICC World 
+            Twenty20 and the 2013 ICC Champions Trophy, the only captain to win three different limited overs 
+            tournaments. He also led the teams that won the Asia Cup in 2010, 2016 and was a member of the title 
+            winning squad in 2018.</p>
+       </div>
+
+    <div class="image1">
+        <img src="https://c4.wallpaperflare.com/wallpaper/264/83/722/ms-dhoni-wallpaper-preview.jpg" class="virat-image">
+       </div>
+    </div>
+
+
+
+
+
+    <div class="Virat-section">
+        <div class="image1">
+        <img src="https://wallpapercave.com/wp/wp9536143.jpg" class="virat-image">
+        
+       </div>
+       <div class="about">
+        <h1 class="Rohit">Rohit Sharma</h1>
+        <p class="matter">Rohit Gurunath Sharma (born 30 April 1987) is an Indian international cricketer 
+            who currently captains the India national cricket team across all formats. He is a right-handed batsman. 
+            Considered one of the best batsmen of his generation and one of the greatest opening batters of all time,
+            [3] Sharma is known for his timing, elegance, six-hitting abilities and leadership skills. Sharma holds 
+            several batting records which famously includes most double centuries in ODI cricket (3), most centuries 
+            at Cricket World Cups (7) and most hundreds in Twenty20 Internationals (5). Rohit Sharma is the first player 
+            to score 5 T20I centuries.[4] He plays for Mumbai Indians in IPL and for Mumbai in domestic cricket.</p>
+       </div>
+    </div>
+
+
+
+
+
+    <div class="Virat-section">
+    <div class="about">
+        <h1 class="Hardik">Hardik Pandya</h1>
+        <p class="matter">Hardik Himanshu Pandya (born 11 October 1993) is an Indian cricketer who is the current vice-captain
+             of the Indian cricket team in limited overs format. He is the captain of Mumbai Indians franchise in IPL. 
+             A batting all-rounder who can also bowl right-arm fast-medium deliveries, Pandya has represented India in 
+             all 3 formats. He is considered to be one of the best all-rounders in world cricket. He currently plays for 
+             the Baroda cricket team in domestic cricket and the Mumbai Indians whom he captains in the 
+             Indian Premier League (IPL).His elder brother Krunal Pandya is also a professional cricketer.</p>
+       </div>
+
+    <div class="image1">
+        <img src="https://i.pinimg.com/originals/2b/6d/88/2b6d885a4c9c4096af9299387b7b4cf3.jpg" class="virat-image">
+       </div>
+    </div>
+
+
+
+
+
+
+
+    <footer style="height: 200px;">
+       <div>
+            <h2>Contact Us</h2>
+            <p>Webiste running since from 2015</p>
+            <p>call us : 0983 432 4444</p>
+            <p>Email us : crickinfo@gmail.com</p>       
+       </div>
+
+       <div>
+            <h2>Join Our Social Comminty</h2>
+            <div style="background-color: lightgray ;">
+                <h3>Follownus On</h3>
+                <span class="bi bi-twitter"></span>
+                <span class="bi bi-youtube"></span>
+                <span class="bi bi-facebook"></span>
+                <span class="bi bi-instagram"></span>
+            </div>
+       </div>
+       <div>
+            <h2>Subscribe</h2>
+            <p>Join us to know more about Cricket leagues</p>
+            <form>
+                <input type="email" placeholder="Email address" name="mail" style="padding: 8px;"><br>
+                <button type="submit" id="sign">Sign Up</button>
+            </form>
+       </div>
+       
+    </footer>
+</body>
+</html>
